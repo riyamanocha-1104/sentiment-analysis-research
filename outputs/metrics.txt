@@ -1,0 +1,38 @@
+                              accuracy  macro_f1
+model                                           
+VADER (rule-based)              0.5296    0.5262
+TF-IDF + Logistic Regression    0.5995    0.5960
+TF-IDF + Linear SVM             0.6027    0.5968
+
+### VADER (rule-based)
+              precision    recall  f1-score   support
+
+    negative       0.60      0.55      0.58      3972
+     neutral       0.66      0.46      0.54      5937
+    positive       0.35      0.67      0.46      2375
+
+    accuracy                           0.53     12284
+   macro avg       0.54      0.56      0.53     12284
+weighted avg       0.58      0.53      0.54     12284
+
+### TF-IDF + Logistic Regression
+              precision    recall  f1-score   support
+
+    negative       0.58      0.67      0.62      3972
+     neutral       0.65      0.55      0.60      5937
+    positive       0.54      0.61      0.57      2375
+
+    accuracy                           0.60     12284
+   macro avg       0.59      0.61      0.60     12284
+weighted avg       0.61      0.60      0.60     12284
+
+### TF-IDF + Linear SVM
+              precision    recall  f1-score   support
+
+    negative       0.60      0.61      0.60      3972
+     neutral       0.64      0.59      0.62      5937
+    positive       0.53      0.61      0.57      2375
+
+    accuracy                           0.60     12284
+   macro avg       0.59      0.61      0.60     12284
+weighted avg       0.61      0.60      0.60     12284
